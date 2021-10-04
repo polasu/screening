@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\polas\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\polas\\.nuget\\packages"
+    ]
+  }
+}

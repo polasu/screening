@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Screening Questions";
+}
+<h1>User Screening Results</h1>
+<hr />
+
+<div class="row">
+    <div class="col-md-9">       
+            <span class="alert-danger">
+                @Html.Raw(TempData["Message"])
+            </span>
+            <span class="alert-success">
+                <b>@ViewBag.message</b>
+            </span>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}  
